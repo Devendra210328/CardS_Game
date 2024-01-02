@@ -50,7 +50,7 @@ function newcard(){
      cardEl.innerText+=" "+new_cards;
   }
   else if(hasBlackJack){
-       outEl.innerText="You won the Game, Start new Game";
+       outEl.innerText="You have won the Game, Start new Game";
   }
   else {
     outEl.innerText="You are out of the game, Start new Game";
